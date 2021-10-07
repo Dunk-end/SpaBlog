@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+body {
+  background: rgba(202, 202, 202, 0.8);
+}
+
+.el-container {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.form__container {
+  width: 40%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.el-form {
+  margin-top: 150px;
+  background: #fff;
+  padding: 24px 48px 24px 24px;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px 0 #22222255;
+}
+
+.el-col {
+  min-height: 36px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+  background: none;
+}
+.header .el__header {
+  background: none;
+  border: none;
+}
+
+.nav__link {
+  margin-left: 16px;
+  color: #3eaf7c;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.router-link-exact-active, .router-link-active, .log-reg {
+  color: #3eaf7c;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.nav__link:hover, .router-link-exact-active:hover, .router-link-active:hover, .log-reg:hover {
+  color: #1ce790;
+}
+
+.log-reg:hover {
+  color: #0b452d;
+}
+
+.el-input {
+  border: none;
+  padding: 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home_posts {
+  background: #fff;
+  width: 80%;
+  margin: 50px auto;
+  max-width: 900px;
+  border-radius: 4px;
+  padding: 16px 16px 16px 16px;
+  box-shadow: 0 3px 10px 0 #22222255;
+}
+
+.filter_posts {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.not__loading {
+  display: none;
+}
+
+.post {
+  background: #fff;
+  padding: 24px 24px 24px 24px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 #22222255;
+  transition: box-shadow 0.5s;
+}
+
+.el-col {
+  padding: 0;
+}
+
+.post:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.post:hover {
+  box-shadow: 0 5px 15px 0 #22222255;
+}
+
+.post__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  max-width: 40%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info__post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post_info-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -24px;
+}
+
+.no_border {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.el-upload-list__item-name {
+  height: 23px;
+}
+
+footer {
+  margin-top: calc(100vh - 200px);
+  width: 100%;
+  background: #3f3f3f;
+}
+
+.post_info-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 54%;
+  max-width: 54%;
+  padding: 0 8px;
+}
